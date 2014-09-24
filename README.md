@@ -33,7 +33,7 @@ Upon connecting to the IRC server for the first time, an ini file will be create
 			
 <h1>Usage</h1>
 
-Command prefixes are ! and . only. The only exception is the query command which is just 'q server'. The bot can have multiple queues (mods) per channel. If you only have one queue (mod) in your channel, ignore the &lt;mod&gt; part of the following commands unless stated otherwise. All OPs in the channel have access to all admin commands.<br><br>
+Command prefixes are ! and . only. The only exception is the query command which is just 'q server'. The bot can have multiple queues (mods) per channel. If you only have one queue (mod) in your channel, ignore the &lt;mod&gt; part of the following commands unless stated otherwise. All OPs in the channel have access to all admin commands.
 			
 <br><h2>Basic PUG Commands</h2>
 <table>
