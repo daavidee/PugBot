@@ -1,22 +1,5 @@
 ```html
-		<div id="content">
-			<div id="toc">
-				<font size="4">
-					&nbsp;&nbsp;On this page<br>
-					<div class="contents">
-							<a href="#About">&nbsp; About</a><br>
-							<a href="#What_is_mIRC">&nbsp; What is mIRC?</a><br>
-							<a href="#Features">&nbsp; Features</a><br>
-							<a href="#Installation">&nbsp; Installation</a><br>
-							<a href="#Usage">&nbsp; Usage</a><br>
-							<a href="#Demo">&nbsp; Demo</a><br>
-							<a href="#Source">&nbsp; Source</a><br>
-					</div>
-				</font>
-			</div>
-			
-
-			
+	
 			<h2 id="About"><div class="anchor">About</div></h2>
 			This is a mIRC script which facilitates pick-up games used for organized play of online games. Once 10 players have joined the queue, a set number of captains (2 or 4) pick teams in a configurable order, or alternatively teams can be picked at random. The bot can query external game, voice, and HTTP servers via UDP and TCP sockets and return the response. All the features of the bot facilitate the organization of these games or are features commonly used by the community. 
 
