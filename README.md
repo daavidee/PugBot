@@ -297,7 +297,3 @@ Command prefixes are ! and . only. The only exception is the query command which
 		<td>Responds with information about the script and ME!</td>
 	</tr>
 </table>
-
-<h2>Demo</h2>
-
-The following is a demonstration of the list, join, translate, google search and voice/game server query commands:<br><br>
