@@ -1,11 +1,12 @@
-About
-====
+<h1>About</h1>
 This is a mIRC script which facilitates pick-up games used for organized play of online games. Once 10 players have joined the queue, a set number of captains (2 or 4) pick teams in a configurable order, or alternatively teams can be picked at random. The bot can query external game, voice, and HTTP servers via UDP and TCP sockets and return the response. All the features of the bot facilitate the organization of these games or are features commonly used by the community. 
 
 At its peak, this IRCBot was used concurrently by over a dozen different IRC channels across different IRC servers in North America, South America and Europe serving hundreds of players based around the game Unreal Tournament. This project started as my very first non-trivial programming project.
-<h2 id="What_is_mIRC"><div class="anchor">What is mIRC?</div></h2>
+
+<h1>What is mIRC?</h1>
 <a href = "http://www.mirc.com/">mIRC</a> is a popular client for the IRC protocol with a powerful event-based scripting language.
-			<h2 id="Features"><div class="anchor">List of Features</div></h2>
+
+<h1>List of Features</h1>
 			<ul>
 				<li>Data mirroring into memory for reduced disk reads</li>
 				<li>Multiple queue capability with up to 99 players per queue with automatic removal from queue upon nick change, quit, part or filled queue (even from another channel)</li>
@@ -18,20 +19,24 @@ At its peak, this IRCBot was used concurrently by over a dozen different IRC cha
 				<li>Themed message responses with 3 default themes and the ability for user-specified themes</li>
 				<li>Tracked player and total PUG statistics by auth or irc nick if the user is not authenticated with the server</li>
 				<li>Rules, links, maps and server lists commands</li>
-				<li>Idle captain and player kick, recent PUG informational commands, promotion and administrative commands, and more. See <a href="#Usage">Usage</a> for a full list of commands</li>
+				<li>Idle captain and player kick, recent PUG informational commands, promotion and administrative commands, and more. See Usage for a full list of commands</li>
 			</ul>
-			<h2 id="Installation"><div class="anchor">Installation</div></h2>
+
+
+<h1>Installation</h1>
 			<ol>
 				<li>Place all files in the mIRC default scripts directory. This is the mIRC root folder for versions prior to 6.3 and %APPDATA%\mIRC for versions thereafter</li>
 				<li>Type /load -rs pugmain.mrc in the server window</li>
 				<li>Load up your IRC server of choice, join a channel and type: .pugbot on. <b> NOTE:</b> This bot works best on a network where it can be given the +B flag or similar permissions. If not, mIRC flood rules need to be enabled or the bot may be kicked for flooding</li>
 			</ol>
-			Upon connecting to the IRC server for the first time, an ini file will be created with the server's $network name with default variables.
-			<h2 id="Usage"><div class="anchor">Usage</div></h2>
 
-			Command prefixes are <b>! and . only</b>. The only exception is the query command which is just 'q server'. The bot can have multiple queues (mods) per channel. <b>If you only have one queue (mod) in your channel, ignore the &lt;mod&gt; part of the following commands unless stated otherwise.</b> All OPs in the channel have access to all admin commands.<br><br>
+Upon connecting to the IRC server for the first time, an ini file will be created with the server's $network name with default variables.
 			
-			<h4>Basic PUG Commands</h4>
+<h1>Usage</h1>
+
+Command prefixes are ! and . only. The only exception is the query command which is just 'q server'. The bot can have multiple queues (mods) per channel. If you only have one queue (mod) in your channel, ignore the &lt;mod&gt; part of the following commands unless stated otherwise. All OPs in the channel have access to all admin commands.<br><br>
+			
+<h2>Basic PUG Commands</h2>
 			<table>
 				<tr><th>Command Syntax</th><th>Description</th></tr>
 				<tr>
@@ -294,14 +299,5 @@ At its peak, this IRCBot was used concurrently by over a dozen different IRC cha
 				</tr>
 			</table>
 
-			<h2 id="Demo"><div class="anchor">Demo</div></h2>
+			<h2>Demo</h2>
 			The following is a demonstration of the list, join, translate, google search and voice/game server query commands:<br><br>
-			<img src="demo/pugbot/pugbotDemo.png">
-			<h2 id="Source"><div class="anchor">Source</div></h2>
-			<a href = "projects/pugbot.zip"> <i class="fa fa-download"></i> Download</a><br>
-			<a id="dirLink_pugbot" href="javascript:toggleView('pugbot', 'dir');"><i class="fa fa-chevron-down"></i> View Source</a>
-			<div id="dirView_pugbot" style="display: none">
-			<div class="spinner"></div>
-			</div>
-		</div>
-```
