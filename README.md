@@ -1,9 +1,10 @@
-<h2>About</h2>
-			This is a mIRC script which facilitates pick-up games used for organized play of online games. Once 10 players have joined the queue, a set number of captains (2 or 4) pick teams in a configurable order, or alternatively teams can be picked at random. The bot can query external game, voice, and HTTP servers via UDP and TCP sockets and return the response. All the features of the bot facilitate the organization of these games or are features commonly used by the community. 
+About
+====
+This is a mIRC script which facilitates pick-up games used for organized play of online games. Once 10 players have joined the queue, a set number of captains (2 or 4) pick teams in a configurable order, or alternatively teams can be picked at random. The bot can query external game, voice, and HTTP servers via UDP and TCP sockets and return the response. All the features of the bot facilitate the organization of these games or are features commonly used by the community. 
 
-			<p>At its peak, this IRCBot was used concurrently by over a dozen different IRC channels across different IRC servers in North America, South America and Europe serving hundreds of players based around the game Unreal Tournament. This project started as my very first non-trivial programming project.</p>
-			<h2 id="What_is_mIRC"><div class="anchor">What is mIRC?</div></h2>
-			<a href = "http://www.mirc.com/">mIRC</a> is a popular client for the IRC protocol with a powerful event-based scripting language.
+At its peak, this IRCBot was used concurrently by over a dozen different IRC channels across different IRC servers in North America, South America and Europe serving hundreds of players based around the game Unreal Tournament. This project started as my very first non-trivial programming project.
+<h2 id="What_is_mIRC"><div class="anchor">What is mIRC?</div></h2>
+<a href = "http://www.mirc.com/">mIRC</a> is a popular client for the IRC protocol with a powerful event-based scripting language.
 			<h2 id="Features"><div class="anchor">List of Features</div></h2>
 			<ul>
 				<li>Data mirroring into memory for reduced disk reads</li>
