@@ -1,10 +1,10 @@
 <h1>About</h1>
-This is a mIRC script which facilitates pick-up games used for organized play of online games. Once 10 players have joined the queue, a set number of captains (2 or 4) pick teams in a configurable order, or alternatively teams can be picked at random. The bot can query external game, voice, and HTTP servers via UDP and TCP sockets and return the response. All the features of the bot facilitate the organization of these games or are features commonly used by the community. 
+This is a mIRC script which facilitates pick-up games used for organized play of online games. Once 10 players have joined the queue, a set number of captains (2 or 4) pick teams in a configurable order, or alternatively teams can be picked at random. The bot can query UT and Valve source engine game servers, Teamspeak 2/3 servers, perform a Google search or translate request, and more. All the features of the bot facilitate the organization of these games or are features commonly used by the community.
 
 <h1>What is mIRC?</h1>
 <a href = "http://www.mirc.com/">mIRC</a> is a popular client for the IRC protocol with a powerful event-based scripting language.
 
-<h1>List of Features</h1>
+<h1>Full list of Features</h1>
 
 <ul>
 <li>Data mirroring into memory for reduced disk reads</li>
