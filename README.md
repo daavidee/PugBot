@@ -1,7 +1,4 @@
-<?php
-	include 'include/mainFunctions.php';
-	create_top();
-?>
+```html
 		<div id="content">
 			<div id="toc">
 				<font size="4">
@@ -325,6 +322,4 @@
 			<div class="spinner"></div>
 			</div>
 		</div>
-<?php
-	create_bottom();
-?>
+```
